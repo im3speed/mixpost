@@ -33,8 +33,8 @@ Route::middleware([
     'web',
     MixpostAuthMiddleware::class,
     HandleInertiaRequests::class
-])->prefix('mixpost')
-    ->name('mixpost.')
+])->prefix('social')
+    ->name('social.')
     ->group(function () {
         Route::get('/', DashboardController::class)->name('dashboard');
         Route::get('reports', ReportsController::class)->name('reports');
