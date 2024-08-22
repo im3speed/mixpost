@@ -22,7 +22,7 @@
         "ext-fileinfo": "*",
         "guzzlehttp/guzzle": "^7.5",
         "illuminate/contracts": "^9.28|^10.0|^11.0",
-        "inertiajs/inertia-laravel": "^0.6.9",
+        "inertiajs/inertia-laravel": "*",
         "inovector/twitteroauth": "^7.0",
         "intervention/image": "^2.7",
         "php-ffmpeg/php-ffmpeg": "^1.0",
